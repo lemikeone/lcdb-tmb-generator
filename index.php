@@ -20,7 +20,7 @@
 <h1>Créateur de vignette</h1>
 </div>
 <div class="text-center">
-<br><br>
+<br>
 <?php
 
 include 'form.php';
