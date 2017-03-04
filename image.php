@@ -60,7 +60,7 @@ $blanc = imagecolorallocate($destination, 255, 255, 255);
 $font = 'Aller_Std_Bd.ttf';
 $font_size = 85;
 $angle = 0;
-$text = $_POST['NomdelaBox'];
+$text = htmlspecialchars($_POST['NomdelaBox']);
 
 // Get Bounding Box Size
 $text_box = imagettfbbox($font_size,$angle,$font,$text);
