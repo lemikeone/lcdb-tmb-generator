@@ -6,6 +6,7 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 
@@ -107,7 +108,7 @@ imagejpeg($destination, 'uploads/vignettes/vignette.jpg');
 <div class="text-center">
 <?php 
 
-echo '<br/><img class="img-thumbnail" src="uploads/vignettes/vignette.jpg" width="400">';
+echo '<br/><img class="img-thumbnail" src="uploads/vignettes/vignette.jpg" max-width="400">';
 echo '<br/><br/><a class="btn btn-success" download="vignette-youtube" href="uploads/vignettes/vignette.jpg" role="button"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> Télécharger la vignette</a> <a class="btn btn-default" href="index.php" role="button"><i class="fa fa-undo" aria-hidden="true"></i> Créer une autre vignette</a>';
 
 ?>
@@ -115,7 +116,6 @@ echo '<br/><br/><a class="btn btn-success" download="vignette-youtube" href="upl
 </div>
 </div>
 </div>
-</div></div>
 
 
 </body>
