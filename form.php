@@ -10,6 +10,6 @@
 	<input type="text" class="form-control" name="NomdelaBox" /><br />
 </div>
  <div class="form-group">
-    <input class="btn btn-success" type="submit" value="Créer la vignette" />
+    <button class="btn btn-success" type="submit" value=""/><i class="fa fa-youtube-play" aria-hidden="true"></i> Créer la vignette</button> 
     </div>
 </form>

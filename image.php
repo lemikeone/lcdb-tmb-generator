@@ -3,8 +3,9 @@
 <head>
 	<title></title>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 
 
@@ -94,15 +95,26 @@ imagettftext($destination, $font_size, $angle, $x, 640, $blanc, $font, $text);
 // On affiche l'image de destination qui a été fusionnée avec le logo
 imagejpeg($destination, 'uploads/vignettes/vignette.jpg');
 ?>
-<div class="container">
 
+<div class="fond">
+<br>
+<div class="text-center"><img src="logo-page.png" width="300px"></div>
+<br>
+<div class="container containerm">
+<div class="text-center">
+<h1>Créateur de vignette</h1>
+</div>
 <div class="text-center">
 <?php 
 
-echo '<br/><br/><img class="img-thumbnail" src="uploads/vignettes/vignette.jpg" height="900" width="540">';
-echo '<br/><br/><a class="btn btn-success btn-lg" download="vignette-youtube" href="uploads/vignettes/vignette.jpg" role="button">Télécharger la vignette</a>';
+echo '<br/><img class="img-thumbnail" src="uploads/vignettes/vignette.jpg" width="400">';
+echo '<br/><br/><a class="btn btn-success" download="vignette-youtube" href="uploads/vignettes/vignette.jpg" role="button"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> Télécharger la vignette</a> <a class="btn btn-default" href="index.php" role="button"><i class="fa fa-undo" aria-hidden="true"></i> Créer une autre vignette</a>';
 
 ?>
+<br/><br/><br/>
+</div>
+</div>
+</div>
 </div></div>
 
 

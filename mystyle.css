@@ -1,0 +1,41 @@
+.containerm {
+		max-width: 500px;
+		border-width:1px;
+		border-color: #e0e0e0;
+		border-radius: 0px;
+		border-style:solid;
+		box-shadow: 0px 0px 6px grey;
+		background-color: white;
+	}
+.youtubecolor {
+		background: -webkit-linear-gradient(#e52d27, #b31217);
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
+		
+	}
+.containerfile {
+		max-width: 300px;
+
+	}
+.fond {
+		background-color: #d6d6d6;
+		background-image: url(background.jpg);
+		background-size: cover;
+		height: 100vh;
+	}
+.btn-success {
+		border-color : #A6DEC8;
+		background-color : #A6DEC8;
+
+	}
+
+.btn-success:hover {
+  color: #fff;
+border-color : #A6DEC8;
+		background-color : #A6DEC8;}
+
+h1 {
+font-weight:lighter;
+font-size: 32px;
+	
+}
